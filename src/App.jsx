@@ -25,13 +25,14 @@ function App() {
   ]
 
   const closeSidebar = () => setIsSidebarOpen(false)
+  const BASE = import.meta.env.BASE_URL
 
   return (
     <div className="page-shell">
       <header className="topbar-wrap">
         <nav className="topbar">
           <div className="brand-block">
-            <img className="driver-logo" src="/logo.png" alt="Adam Pelčík logo" />
+            <img className="driver-logo" src={`${BASE}logo.png`} alt="Adam Pelčík logo" />
             <span className="status-dot" aria-hidden="true" />
             <span className="brand-name">ADAM PELČÍK</span>
             <a
@@ -196,7 +197,7 @@ function App() {
           <div className="about-right">
             <div className="driver-card">
               <div className="driver-card-img-wrap">
-                <img src="/about_me.jpeg" alt="Adam Pelčík racing" className="driver-card-img" />
+                <img src={`${BASE}about_me.jpeg`} alt="Adam Pelčík racing" className="driver-card-img" />
               </div>
               <div className="driver-card-body">
                 <div className="driver-card-name">
@@ -240,7 +241,7 @@ function App() {
             </div>
 
             <div className="calendar-showcase-media">
-              <img className="calendar-showcase-image" src="/calendar.jpeg" alt="Adam racing on track" />
+              <img className="calendar-showcase-image" src={`${BASE}calendar.jpeg`} alt="Adam racing on track" />
             </div>
           </div>
 
@@ -278,13 +279,13 @@ function App() {
             </div>
 
             <div className="partners-showcase-media">
-              <img className="partners-showcase-image" src="/partners.jpeg" alt="Adam racing at the circuit" />
+              <img className="partners-showcase-image" src={`${BASE}partners.jpeg`} alt="Adam racing at the circuit" />
             </div>
           </div>
 
           <div className="partners-grid">
             <article className="partner-tile">
-              <img className="partner-tile-logo" src="/aimotor_lgo.png" alt="AiMotor logo" />
+              <img className="partner-tile-logo" src={`${BASE}aimotor_lgo.png`} alt="AiMotor logo" />
               <p className="partner-tile-name">AiMotor</p>
               <p className="partner-tile-role">Technical Partner</p>
             </article>
@@ -329,7 +330,7 @@ function App() {
           </div>
 
           <div className="contact-visual">
-            <img className="contact-image" src="/contact.jpeg" alt="Adam Pelčík racing kart" />
+            <img className="contact-image" src={`${BASE}contact.jpeg`} alt="Adam Pelčík racing kart" />
           </div>
         </div>
       </section>
