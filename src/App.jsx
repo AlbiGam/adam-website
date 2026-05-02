@@ -137,9 +137,9 @@ function App() {
 
           <p className="hero-subtitle">Racing driver from Czech Republic</p>
 
-          <button className="cta-btn" type="button">
+          <a className="cta-btn" href="#about">
             Learn more
-          </button>
+          </a>
         </section>
 
         <aside className="side-dots" aria-label="Section indicator">
