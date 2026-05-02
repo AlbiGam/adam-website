@@ -352,23 +352,27 @@
 }
 
 .cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
-  border: 1px solid #9ed6ea;
-  background: transparent;
-  color: var(--secondary-blue-dark);
-  text-transform: uppercase;
-  letter-spacing: 0.28em;
-  font-size: 0.62rem;
+  text-decoration: none;
+  background: var(--secondary-blue-dark);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  height: 48px;
+  padding: 0 28px;
+  font-size: 0.82rem;
   font-weight: 700;
-  border-radius: 999px;
-  height: 46px;
-  padding: 0 22px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   cursor: pointer;
-  transition: transform 200ms ease, background 200ms ease;
+  transition: background 180ms ease, transform 180ms ease;
 }
 
 .cta-btn:hover {
-  background: #eef9fe;
+  background: #246d8e;
   transform: translateY(-1px);
 }
 
@@ -1199,20 +1203,6 @@
     font-size: 0.95rem;
     color: #5f6b78;
     margin: 0;
-  }
-
-  .cta-btn {
-    height: 44px;
-    padding: 0 24px;
-    background: var(--secondary-blue-dark);
-    color: #ffffff;
-    border-color: var(--secondary-blue-dark);
-    font-size: 0.65rem;
-  }
-
-  .cta-btn:hover {
-    background: #246d8e;
-    border-color: #246d8e;
   }
 
   .driver-logo {
