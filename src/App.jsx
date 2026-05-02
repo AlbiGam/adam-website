@@ -80,11 +80,6 @@ function App() {
           </ul>
 
           <div className="topbar-actions">
-            <button className="lang-btn" type="button" aria-label="Language switcher">
-              EN
-              <span aria-hidden="true">⌄</span>
-            </button>
-
             <button
               className="mobile-menu-btn"
               type="button"
@@ -129,10 +124,6 @@ function App() {
           </a>
         </nav>
 
-        <button className="mobile-lang-btn" type="button" aria-label="Language switcher">
-          EN
-          <span aria-hidden="true">⌄</span>
-        </button>
       </aside>
 
       <main className="hero" aria-label="Hero section">
